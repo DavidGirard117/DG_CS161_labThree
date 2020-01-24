@@ -1,10 +1,15 @@
-/**
- * Main
+/**Lab 3
+ * David Girard
+ * CS 161 winter 2020
+ * 1/22/20
+ * create program from class diagram with constructors, getters,
+ * and headers
  */
 public class Main {
 
 private static void  main(String[] args) {
-    Referral referralObject = new Referral();
+    //made classes into objects and called upon classes in Main
+    Referral referralObject = new Referral(); 
     referralObject.getClass();
 
     ReferralList referrallistObject = new ReferralList();
@@ -31,7 +36,7 @@ private static void  main(String[] args) {
     Client clientObject = new Client();
     clientObject.getClass();
 
-    
+
     } 
 
    
