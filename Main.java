@@ -27,5 +27,12 @@ private static void  main(String[] args) {
 
     Appoitment appoitmentObject = new Appoitment();
     appoitmentObject.getClass();
+
+    Client clientObject = new Client();
+    clientObject.getClass();
+
+    
     } 
+
+   
 }
