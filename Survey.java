@@ -18,6 +18,12 @@ public class Survey {
     public SurveyQuestions[] getquestionset() {
         return questionSet;
     }
+    public void displayQuestions() {
+
+    }
+    public void recordAnswer() {
+        
+    }
 
 
     

@@ -4,7 +4,6 @@
 
 public class Referral {
 
-    public static void main(String[] args) {
         //list of methods
         private String providerName;
         private String date;

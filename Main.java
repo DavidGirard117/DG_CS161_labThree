@@ -2,16 +2,30 @@
  * Main
  */
 public class Main {
-private static  main(String[] args) {
-    return Referral.class;
-    return ReferralList.class;
-    return ServiceNeed.class;
-    return Survey.class;
-    return SurveyQuestions.class;
-    return ServiceNeed.class;
-    return ClinicService.class;
-    return Calendar.class;
-    return Appoitment.class;
-}
-   
+
+private static void  main(String[] args) {
+    Referral referralObject = new Referral();
+    referralObject.getClass();
+
+    ReferralList referrallistObject = new ReferralList();
+    referrallistObject.getClass();
+
+    ServiceNeed serviceneedObject = new ServiceNeed();
+    serviceneedObject.getClass();
+
+    Survey surveyObject = new Survey();
+    surveyObject.getClass();
+
+    SurveyQuestions surveyquestionsObject = new SurveyQuestions();
+    surveyquestionsObject.getClass();
+
+    ClinicService clinicserviceObject = new ClinicService();
+    clinicserviceObject.getClass();
+
+    Calendar calendarObject = new Calendar();
+    calendarObject.getClass();
+
+    Appoitment appoitmentObject = new Appoitment();
+    appoitmentObject.getClass();
+    } 
 }

@@ -4,7 +4,14 @@
  * ReferralList
  */
 public class ReferralList {
-// list of methods
+public void matchService() {
+
+}
+public void displayMatched() {
+    
+}
+
+    // list of methods
     private String location;
     private String phone;
     private String serviceProvided;
@@ -22,7 +29,5 @@ public class ReferralList {
     }//get and set provider's name
     public String getproviderName() {
         return providerName;
-
-
     }
 }
